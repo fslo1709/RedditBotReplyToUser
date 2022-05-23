@@ -3,8 +3,8 @@ import time
 import os
 import config
 
-DB_PATH = "comments_replied_to.txt"
-REPLY_PATH = "text.txt"
+DB_PATH = "./txt/comments_replied_to.txt"
+REPLY_PATH = "./txt/text.txt"
 
 def process_reply(middle_text):
     with open(REPLY_PATH, "r") as f:
